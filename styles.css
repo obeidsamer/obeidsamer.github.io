@@ -197,6 +197,11 @@ nav .right a:last-child:hover {
   font-size: 24px;
 }
 
+.skills-section .cells .cell img.spark-logo {
+  width: 24px;
+  height: 24px;
+}
+
 .skills-section .cells .cell span {
   font-size: 18px;
 }
@@ -597,6 +602,15 @@ nav .right a:last-child:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 25px;
+}
+
+.refs-note {
+  max-width: 720px;
+  margin: -15px auto 30px;
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 .ref-card {
